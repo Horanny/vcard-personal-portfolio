@@ -69,6 +69,7 @@
   --light-gray-70: hsla(0, 0%, 84%, 0.7);
   --bittersweet-shimmer: hsl(0, 43%, 51%);
 
+
   /**
    * typography
    */
@@ -113,8 +114,6 @@
 
 
 
-
-
 /*-----------------------------------*\
   #RESET
 \*-----------------------------------*/
@@ -123,6 +122,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  /* border-radius: 20px; */
 }
 
 a { text-decoration: none; }
@@ -156,8 +156,6 @@ input, textarea {
 html { font-family: var(--ff-poppins); }
 
 body { background: var(--smoky-black); }
-
-
 
 
 
